@@ -49,7 +49,7 @@ const tick = () => {
                     <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                        <span className="tagline">Welcome to my Portfolio</span>
+                        <span className="tagline">Welcome to my Portfolio!!!!</span>
                         <h1>{`Hi! my name is Abdulwahab Roheemat Damilola, I am a`} <span className="wrap">{text}</span></h1>
                         <p> 
 My journey into the world of web development is marked by an insatiable curiosity and a relentless pursuit of excellence. With a keen eye for detail and a mind wired for problem-solving, I transforms ideas into interactive and visually stunning websites. My coding prowess, especially in HTML, CSS, Bootstrap, JavaScript and React forms the foundation of my digital artistry..</p>
@@ -61,12 +61,12 @@ My journey into the world of web development is marked by an insatiable curiosit
                         <img src={headerImg} alt="Header img" />
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
+           {/*  <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                   <img src={headerImg} alt="Header Img"/>
                 </div>}
-            </TrackVisibility>
+            </TrackVisibility> */}
           </Col>
                 </Row>
             </Container>
